@@ -20,9 +20,9 @@ displayTime();
 }
 
 function displayTime(){
-const hours = Math.floor(secondsElapsed / 3600); // Total hours
-const mins = Math.floor((secondsElapsed % 3600) / 60); // Remaining minutes after hours
-const seconds = secondsElapsed % 60; // Remaining seconds
+const hours = Math.floor(secondsElapsed / 3600); 
+const mins = Math.floor((secondsElapsed % 3600) / 60); 
+const seconds = secondsElapsed % 60; 
     time.innerHTML = `${hours}:${mins}:${seconds}`; 
        
 }
